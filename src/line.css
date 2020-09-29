@@ -1,0 +1,144 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+body {
+
+	/*font-family: 'Open Sans', sans-serif;*/
+}
+a{
+	text-decoration: none;
+}
+
+header{
+	height: 80px;
+	width: 100%;
+	background: none;
+	position: fixed;
+
+}
+
+.poloska{
+	width: 100%;
+	height: 20px;
+	background-color: white;
+}
+
+.logo{
+	height: 80px;
+	float: left;
+	margin:0;
+	margin-top:16px;
+	margin-left: 8%;
+
+
+
+}
+
+.logotext{
+	font-variant:normal;
+	font-family: 'Galdeano', sans-serif;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 26px;
+	cursor: pointer;
+	width:10%;
+	margin-top: 35px;
+	float:left;
+	margin-left: 17px;
+}
+
+.avatar{
+	height: 60px;
+	width: 60px;
+	background-color: gray;
+	border-radius: 50%;
+	float:right;
+	margin-right:3%;
+	margin-top: 10px;
+}
+
+.container{
+	height: 100vh;
+
+	background-image: url(https://planetadd.ucoz.ru/_si/0/38147654.jpg);
+	background-size: 100%;
+}
+
+
+.container1{
+	height: 25vh;
+	width: 100%;
+	background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.arrow-7 {
+	padding-top: 84vh;
+    margin: 0 auto 10px auto;
+	width: 38px;
+	height: 10px;
+}
+.arrow-7 span {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+    transform: rotate(45deg);
+    margin: -16px 0;
+    animation: arrow-7 2s infinite;
+}
+.arrow-7 span:nth-child(2){
+    animation-delay: -0.2s;
+}
+.arrow-7 span:nth-child(3){
+    animation-delay: -0.4s;
+}
+@keyframes arrow-7 {
+    0%{
+        opacity: 0;
+        transform: translate(0,-20px) rotate(45deg);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: translate(0,20px) rotate(45deg);
+    }
+}
+.arrow-7 {
+	opacity: 1000;
+	margin-top: 0%;
+	margin-left:48%;
+	height: 0px;
+	width: 55px;
+	background: rgba(255,0,0,.0);
+}
+.second-page {
+	height: 100vh;
+	background: rgba(0,255,0,.3);
+}
