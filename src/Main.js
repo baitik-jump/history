@@ -14,11 +14,12 @@ export const Main = (props) =>{
     	</div>
     	<header>
     			<div className="logo">
-    				<a href=""><img width="40" src={logo}></a>
+    				  <a href=""><img width="40" src={logo}/></a>
     			</div>
-    			<div className="logotext"><p>
-    				HistoryTime
-    			</p>
+    			<div className="logotext">
+            <p>
+    				  HistoryTime
+    			  </p>
     			</div>
     			<div className="avatar">
     			</div>
@@ -28,18 +29,18 @@ export const Main = (props) =>{
     			<p>ПРОЙДИ<br>ПУТЬ ЖИЗНИ</br> ИЗВЕСТНОЙ <br>ЛИЧНОСТИ</br></p>
     			<div>
     			<svg className="strelka-left-3" viewBox="0 0 5 9">
-    			<path d="M0.419,9.000 L0.003,8.606 L4.164,4.500 L0.003,0.394 L0.419,0.000 L4.997,4.500 L0.419,9.000 Z" ></path>
-    					</svg>
+    			   < path d="M0.419,9.000 L0.003,8.606 L4.164,4.500 L0.003,0.394 L0.419,0.000 L4.997,4.500 L0.419,9.000 Z" ></path>
+    			</svg>
 
 
-    					<svg className="strelka-right-3" viewBox="0 0 5 9">
+    			<svg className="strelka-right-3" viewBox="0 0 5 9">
     					    <path d="M0.419,9.000 L0.003,8.606 L4.164,4.500 L0.003,0.394 L0.419,0.000 L4.997,4.500 L0.419,9.000 Z" ></path>
-    					</svg>
-    					</svg>
+    			</svg>
+
     			</div>
     			<div className="search1">
 
-    			 	<form onsubmit="event".preventDefault(); role="search">
+    			 	<form onsubmit="event".preventDefault() role="search">
     			  		<label for="search">Search for stuff</label>
     			  		<input id="search" type="search" placeholder="Search..." autofocus required />
     			  		<button type="submit">Go</button>
@@ -47,7 +48,7 @@ export const Main = (props) =>{
     			</div>
     		</div>
     		<div className="scroll_bar">
-    				<a href="file:///C:/Users/Baytik-228/Desktop/HistoryTime/TimeLine.html"></a><img height="125%" src={steve}>
+    				<a href="file:///C:/Users/Baytik-228/Desktop/HistoryTime/TimeLine.html"></a><img height="125%" src={steve}/>
     		</div>
     		<div className="contact">
     			<div className="vk"><a href="https://vk.com/rgilyazow"></a></div>
