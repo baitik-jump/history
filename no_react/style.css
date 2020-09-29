@@ -79,9 +79,7 @@ header{
 	width: 40%;
 	margin-top: -85px;
 	background-color: none;
-	transition:1s;
-
-	
+	transition:1s;	
 }
 
 .scroll_bar:hover{
